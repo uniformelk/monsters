@@ -12,6 +12,7 @@
     padding: 0;
     font-family: "emms";
 }
+
 .cons{
     height: 75vh;
 }
@@ -28,3 +29,52 @@ p{
 .logo{
     height: 100px;
 }
+#preloader-contenedor{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cf7690+0,ebca55+62&0.65+0,0+100 */
+    background: -moz-linear-gradient(left,  rgba(207,118,144,0.65) 0%, rgba(235,202,85,0.25) 62%, rgba(235,202,85,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(207,118,144,0.65) 0%,rgba(235,202,85,0.25) 62%,rgba(235,202,85,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(207,118,144,0.65) 0%,rgba(235,202,85,0.25) 62%,rgba(235,202,85,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6cf7690', endColorstr='#00ebca55',GradientType=1 ); /* IE6-9 */
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+.preloader {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #ebca55;
+    border-top: 10px solid #cf7690;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background-image: url('../img/preload.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  i{
+      font-size: 2rem;
+  }
+  .fa-whatsapp{
+      color: #389941;
+  }
+  .fa-instagram{
+      color: #9a4a82;
+  }
+  .fa-facebook{
+      color: #06286d;
+  }
