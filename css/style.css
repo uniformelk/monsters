@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "emms";
+    src: url("../fonts/Semringah.ttf");
+}
+@font-face {
+    font-family: "emms2";
+    src: url("../fonts/Fashion.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "emms";
+}
+.cons{
+    height: 75vh;
+}
+.bg-principal{
+    background-color: #eeecf9;
+}
+footer{
+    height: 10vh;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.logo{
+    height: 100px;
+}
